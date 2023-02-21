@@ -8,9 +8,7 @@ class MyBooks extends Component {
       <>
       <h1>sdfghjkl;</h1>
       <MyBooksBlock>
-       
-      </MyBooksBlock>
-      <form>
+            <form>
       <div>
         <label>Book title</label>
         <input placeholder="Book title" required />
@@ -21,6 +19,9 @@ class MyBooks extends Component {
        </div>
       <button type="submit">Add book</button>
       </form>
+      <p>//////</p>
+      </MyBooksBlock>
+      
       </>
     )
   }

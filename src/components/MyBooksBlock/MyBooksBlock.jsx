@@ -1,12 +1,11 @@
-
-const MyBooksBlock = () => {
-    return (
-        <div>
-            <h4>/////hjkl//////</h4>
-            
-        </div>
-    )
-}
-
+const MyBooksBlock = ({ children }) => {
+  console.log(children);
+  return (
+    <div>
+      <h4>/////hjkl//////</h4>
+      {children}
+    </div>
+  );
+};
 
 export default MyBooksBlock;
